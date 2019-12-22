@@ -1,0 +1,37 @@
+plugins {
+	id 'org.springframework.boot' version '2.2.2.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+	id 'java'
+}
+
+group = 'com.madurobank'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+test {
+  useJUnitPlatform()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-batch'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.6'
+	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.3.0'
+	implementation 'org.apache.commons:commons-lang3:3.4'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+	testImplementation 'org.springframework.batch:spring-batch-test'
+	testCompile "org.junit.jupiter:junit-jupiter-api:5.2.0"
+  	testCompile "org.junit.jupiter:junit-jupiter-params:5.2.0"
+  	testRuntime "org.junit.jupiter:junit-jupiter-engine:5.2.0"
+}
+
+test {
+	useJUnitPlatform()
+}

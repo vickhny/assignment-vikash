@@ -1,0 +1,72 @@
+<records>
+  <record reference="169962">
+    <accountNumber>NL69ABNA0433647324</accountNumber>
+    <description>Flowers from Rik de Vries</description>
+    <startBalance>61.68</startBalance>
+    <mutation>+21.66</mutation>
+    <endBalance>83.34</endBalance>
+  </record>
+  <record reference="198404">
+    <accountNumber>NL74ABNA0248990274</accountNumber>
+    <description>Clothes from Peter King</description>
+    <startBalance>5429</startBalance>
+    <mutation>-939</mutation>
+    <endBalance>6368</endBalance>
+  </record>
+  <record reference="179573">
+    <accountNumber>NL27SNSB0917829871</accountNumber>
+    <description>Clothes for Vincent Bakker</description>
+    <startBalance>90.32</startBalance>
+    <mutation>+16.51</mutation>
+    <endBalance>106.83</endBalance>
+  </record>
+  <record reference="164904">
+    <accountNumber>NL43AEGO0773393871</accountNumber>
+    <description>Clothes for Daniël Bakker</description>
+    <startBalance>66.74</startBalance>
+    <mutation>-20.96</mutation>
+    <endBalance>45.78</endBalance>
+  </record>
+  <record reference="156862">
+    <accountNumber>NL90ABNA0585647886</accountNumber>
+    <description>Candy for Willem Bakker</description>
+    <startBalance>38.17</startBalance>
+    <mutation>+2.62</mutation>
+    <endBalance>40.79</endBalance>
+  </record>
+  <record reference="178451">
+    <accountNumber>NL43AEGO0773393871</accountNumber>
+    <description>Subscription from Peter King</description>
+    <startBalance>20.9</startBalance>
+    <mutation>-0.11</mutation>
+    <endBalance>20.79</endBalance>
+  </record>
+  <record reference="143534">
+    <accountNumber>NL93ABNA0585619023</accountNumber>
+    <description>Flowers from Rik Dekker</description>
+    <startBalance>10.1</startBalance>
+    <mutation>-0.3</mutation>
+    <endBalance>9.8</endBalance>
+  </record>
+  <record reference="104581">
+    <accountNumber>NL91RABO0315273637</accountNumber>
+    <description>Tickets from Peter Theuß</description>
+    <startBalance>10.03</startBalance>
+    <mutation>+42.1</mutation>
+    <endBalance>52.13</endBalance>
+  </record>
+  <record reference="188240">
+    <accountNumber>NL43AEGO0773393871</accountNumber>
+    <description>Tickets from Peter King</description>
+    <startBalance>3980</startBalance>
+    <mutation>+1000</mutation>
+    <endBalance>4981</endBalance>
+  </record>
+  <record reference="128365">
+    <accountNumber>NL43AEGO0773393871</accountNumber>
+    <description>Flowers for Jan Theuß</description>
+    <startBalance>45.6</startBalance>
+    <mutation>+33.57</mutation>
+    <endBalance>79.17</endBalance>
+  </record>
+</records>
